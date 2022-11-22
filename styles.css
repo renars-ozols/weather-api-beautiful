@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F4F5F7;
+}
+
+h2 {
+    margin: 0;
+}
+
+.container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.form {
+    display: flex;
+}
+
+.form input[type=text] {
+    height: 30px;
+    flex-grow: 1;
+}
+
+.form button {
+    height: 30px;
+    background-color: blue;
+    color: white;
+    margin-left: 5px;
+}
+
+.weather-container {
+    width: 200px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+}
+
+.city-name {
+    text-align: center;
+}
+
+.temperature-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
